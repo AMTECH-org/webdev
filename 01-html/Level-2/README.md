@@ -1,82 +1,55 @@
-# 🌐 HTML Level 1 – HTML Basics
+# 🌐 HTML Level 2 – Core HTML
 
-> Welcome to your first step into Web Development.
+> Welcome to Level 2 of the HTML Module.
 
 ---
 
-## 🎯 Learning Objectives
+# 🎯 Learning Objectives
 
-After completing this level, you will be able to:
+By the end of this level, you will be able to:
 
-- Understand what HTML is.
-- Understand why HTML is used.
-- Understand the structure of a web page.
-- Create your first HTML file.
-- Write the HTML5 Boilerplate.
-- Use headings and paragraphs.
-- Use VS Code and Emmet efficiently.
+- Create ordered and unordered lists
+- Add hyperlinks to webpages
+- Display images
+- Understand Absolute and Relative Paths
+- Use formatting tags
+- Write HTML comments
+- Differentiate Block and Inline elements
+- Use div and span effectively
 
 ---
 
 # 📚 Topics Covered
 
-- Introduction to HTML
-- What is HTML?
-- HTML5
-- HTML Elements
-- HTML Tags
-- VS Code Setup
-- Emmet
-- HTML Boilerplate
-- Headings
-- Paragraphs
+- Lists
+- Anchor Tag
+- Images
+- Absolute Path
+- Relative Path
+- Formatting Tags
+- Comments
+- Block vs Inline Elements
+- div
+- span
+- hr
+- sub
+- sup
 
 ---
 
-# 📂 Files in this Level
+# 📂 Files
 
-| File                   | Description               |
-| ---------------------- | ------------------------- |
-| notes.md               | Detailed lecture notes    |
-| assignment.md          | Practice questions        |
-| homework.md            | Homework after class      |
-| interview-questions.md | Placement preparation     |
-| resources.md           | Helpful references        |
-| class-code             | Code written during class |
-| starter-code           | Starter files             |
-| solution               | Reference solution        |
+- notes.md
+- assignment.md
+- homework.md
+- interview-questions.md
+- resources.md
+- class-code/
+- starter-code/
+- solution/
 
 ---
 
-# 🛠 Software Required
+# 🚀 Next
 
-- Visual Studio Code
-- Google Chrome
-
----
-
-# 📌 Prerequisites
-
-No prior programming knowledge is required.
-
----
-
-# ⏱ Estimated Duration
-
-**2 Hours**
-
----
-
-# ✅ Checklist
-
-- [ ] Read the notes
-- [ ] Complete the class code
-- [ ] Finish the assignment
-- [ ] Submit the homework
-- [ ] Revise interview questions
-
----
-
-## 🚀 Next Level
-
-After completing this level, continue to **Level 2**.
+After completing this level, you'll move to **HTML Level 3 – Advanced HTML**.

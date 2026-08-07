@@ -1,272 +1,180 @@
-# 🌐 HTML Level 1 Notes
+# 🌐 HTML Level 2 Notes
 
 ---
 
-# 🎯 What is HTML?
+# 📋 Lists
 
-HTML stands for **HyperText Markup Language**.
+HTML provides two types of lists.
 
-It is the standard markup language used to create web pages.
-
-HTML provides the **structure** of a website.
-
-> Think of a website as a human body:
->
-> - 🦴 HTML → Skeleton (Structure)
-> - 🎨 CSS → Skin (Design)
-> - 🧠 JavaScript → Brain (Functionality)
-
----
-
-# 🌍 What is HyperText?
-
-HyperText means text that contains links to other pages or documents.
-
-Example:
-
-```
-Home → About → Contact
-```
-
-Clicking on a link takes you to another page.
-
----
-
-# 🏷 What is Markup?
-
-Markup means using **tags** to describe the structure of content.
-
-Example:
+## Ordered List
 
 ```html
-<h1>Welcome to AMTECH</h1>
-
-<p>This is a paragraph.</p>
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
 ```
-
-The browser understands these tags and displays the content accordingly.
 
 ---
 
-# 📜 What is HTML5?
-
-HTML5 is the latest version of HTML.
-
-It introduced:
-
-- Better Semantic Tags
-- Audio Support
-- Video Support
-- Canvas
-- Improved Forms
-
----
-
-# 🖥 What is VS Code?
-
-Visual Studio Code is a lightweight source code editor.
-
-Features:
-
-- Free
-- Fast
-- Extensions
-- Emmet Support
-- Integrated Terminal
-
----
-
-# ⚡ What is Emmet?
-
-Emmet helps developers write HTML faster.
-
-Examples:
-
-```
-!
-```
-
-creates the complete HTML Boilerplate.
-
-```
-ul>li*5
-```
-
-creates
+## Unordered List
 
 ```html
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Apple</li>
+    <li>Mango</li>
+    <li>Orange</li>
 </ul>
 ```
 
 ---
 
-# 📄 HTML Boilerplate
+# 🔗 Anchor Tag
+
+Anchor tags create hyperlinks.
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-</head>
-
-<body>
-
-</body>
-
-</html>
+<a href="https://google.com">Google</a>
 ```
 
 ---
 
-# 🧠 Boilerplate Explanation
+# 🖼 Images
 
-## <!DOCTYPE html>
-
-Tells the browser that this document uses HTML5.
-
----
-
-## `<html>`
-
-Root element of every HTML document.
+```html
+<img src="image.jpg" alt="Sample Image">
+```
 
 ---
 
-## `<head>`
+# 📂 Absolute Path
 
-Contains metadata.
-
-Examples:
-
-- Title
-- Meta Tags
-- CSS Links
-
----
-
-## `<title>`
-
-Displays the webpage title in the browser tab.
-
----
-
-## `<body>`
-
-Contains everything visible on the webpage.
-
----
-
-# 🏷 HTML Elements
-
-An HTML Element consists of:
-
-- Opening Tag
-- Content
-- Closing Tag
+Points to an external location.
 
 Example:
 
 ```html
-<h1>AMTECH</h1>
+https://example.com/image.jpg
 ```
 
 ---
 
-# 🏷 HTML Tags
+# 📁 Relative Path
 
-Opening Tag
+Points to a file inside your project.
 
 ```html
-<h1>
+images/logo.png
 ```
 
-Closing Tag
+---
+
+# 💬 Comments
 
 ```html
-</h1>
+<!-- This is a comment -->
 ```
 
 ---
 
-# 🔠 Headings
-
-HTML provides six heading tags.
+# ✨ Formatting Tags
 
 ```html
-<h1>Main Heading</h1>
+<b>Bold</b>
 
-<h2>Sub Heading</h2>
+<i>Italic</i>
 
-<h3>Heading 3</h3>
-
-<h4>Heading 4</h4>
-
-<h5>Heading 5</h5>
-
-<h6>Heading 6</h6>
+<u>Underline</u>
 ```
-
-### Best Practice
-
-Use only **one `<h1>`** per page.
 
 ---
 
-# 📄 Paragraph
+# 📦 Block Elements
 
-Paragraphs are created using:
+Take the full width.
+
+Examples:
+
+- div
+- h1
+- p
+
+---
+
+# 📄 Inline Elements
+
+Take only required width.
+
+Examples:
+
+- span
+- a
+- img
+
+---
+
+# 📦 div
+
+Generic Block Element.
 
 ```html
-<p>This is a paragraph.</p>
+<div>
+    Welcome to AMTECH
+</div>
 ```
 
 ---
 
-# 💡 Best Practices
+# 🔹 span
 
-- Use lowercase tag names.
-- Keep code properly indented.
-- Use meaningful titles.
-- Save HTML files with `.html`.
-- Use Emmet whenever possible.
+Generic Inline Element.
 
----
-
-# 📝 Summary
-
-In this level you learned:
-
-- What HTML is
-- HyperText
-- Markup
-- HTML5
-- VS Code
-- Emmet
-- HTML Boilerplate
-- HTML Elements
-- HTML Tags
-- Headings
-- Paragraphs
+```html
+<span>Hello</span>
+```
 
 ---
 
-# 🚀 Next Level
+# ➖ hr
 
-In Level 2 you will learn:
+Horizontal Rule
+
+```html
+<hr>
+```
+
+---
+
+# 🔻 sub
+
+```html
+H<sub>2</sub>O
+```
+
+---
+
+# 🔺 sup
+
+```html
+x<sup>2</sup>
+```
+
+---
+
+# ✅ Summary
+
+You learned:
 
 - Lists
 - Links
 - Images
+- Paths
 - Formatting Tags
-- Block vs Inline Elements
-- Div
-- Span
+- Comments
+- Block vs Inline
+- div
+- span
+- hr
+- sub
+- sup

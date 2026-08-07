@@ -1,94 +1,69 @@
-# 🌐 HTML - Complete Beginner to Advanced
+# 🌐 HTML Level 1 - Introduction to HTML
 
-> Build the foundation of every website on the internet.
-
----
-
-## 📚 Module Overview
-
-This module is designed to take you from **zero HTML knowledge** to confidently building well-structured, semantic web pages.
-
-By the end of this module, you'll be able to build responsive webpage structures that are ready for CSS and JavaScript.
+> Welcome to your first step into Web Development.
 
 ---
 
-# 🎯 Learning Outcomes
+# 🎯 Learning Objectives
 
-After completing this module you will be able to:
+By the end of this level, you will be able to:
 
-- ✅ Understand how websites work
-- ✅ Write clean HTML5 documents
-- ✅ Use semantic HTML
-- ✅ Create Forms
-- ✅ Create Tables
-- ✅ Add Images & Multimedia
-- ✅ Build Portfolio Websites
-- ✅ Follow modern HTML best practices
-
----
-
-# 🗂 Module Structure
-
-| Folder | Description |
-|---------|-------------|
-| 📖 notes | Complete theory notes |
-| 📝 assignments | Practice assignments |
-| 💻 starter-code | Starter files for practice |
-| 🚀 projects | Real-world projects |
-| ✅ solutions | Assignment solutions |
-
----
-
-# 🛣 Learning Roadmap
-
-```
-Learn
-   ↓
-Practice
-   ↓
-Assignment
-   ↓
-Mini Project
-   ↓
-Challenge
-   ↓
-Solution
-```
+- Understand what HTML is
+- Understand how websites work
+- Create your first HTML document
+- Write the HTML5 Boilerplate
+- Use headings and paragraphs
+- Save and run HTML files
 
 ---
 
 # 📚 Topics Covered
 
-- HTML Introduction
-- HTML Basics
-- Text Formatting
-- Links & Images
-- Lists
-- Tables
-- Forms
-- Semantic HTML
-- Multimedia
-- Best Practices
+- What is HTML?
+- How Websites Work
+- HTML File Structure
+- HTML Boilerplate
+- Headings
+- Paragraphs
 
 ---
 
-# 🚀 Projects
+# 📂 Resources in this Level
 
-- Personal Portfolio
-- Resume Website
-- Restaurant Landing Page
-
----
-
-# 🏆 Module Completion Checklist
-
-- [ ] Complete Notes
-- [ ] Finish Assignments
-- [ ] Build Projects
-- [ ] Review Solutions
+| File          | Purpose                       |
+| ------------- | ----------------------------- |
+| notes.md      | Theory explained during class |
+| class-code    | Live coding done in class     |
+| assignment.md | Practice assignment           |
+| homework.md   | Homework after class          |
+| starter-code  | Starter files                 |
+| solution      | Reference solution            |
+| resources.md  | Extra learning resources      |
 
 ---
 
-## ❤️ Built with passion by AMTECH
+# 💻 Software Required
 
-**Tech Beyond Limits**
+- VS Code
+- Google Chrome
+
+---
+
+# ⏱ Estimated Duration
+
+**2 Hours**
+
+---
+
+# ✅ Level Completion Checklist
+
+- [ ] Read the notes
+- [ ] Complete class code
+- [ ] Finish assignment
+- [ ] Complete homework
+
+---
+
+## 🚀 Next Level
+
+After completing this level, you will move to **HTML Level 2**.

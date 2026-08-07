@@ -2,11 +2,19 @@
 
 ---
 
-# 📋 Lists
+# 📋 HTML Lists
 
-HTML provides two types of lists.
+Lists help organize information in a structured manner.
 
-## Ordered List
+HTML provides two main types of lists.
+
+---
+
+# 1️⃣ Ordered List
+
+An Ordered List displays items in a numbered sequence.
+
+### Syntax
 
 ```html
 <ol>
@@ -16,9 +24,40 @@ HTML provides two types of lists.
 </ol>
 ```
 
+### Output
+
+1. HTML
+2. CSS
+3. JavaScript
+
 ---
 
-## Unordered List
+## Ordered List Types
+
+```html
+<ol type="A">
+    <li>Apple</li>
+    <li>Mango</li>
+</ol>
+```
+
+Possible values:
+
+```
+1
+A
+a
+I
+i
+```
+
+---
+
+# 2️⃣ Unordered List
+
+Displays items using bullets.
+
+### Syntax
 
 ```html
 <ul>
@@ -32,113 +71,260 @@ HTML provides two types of lists.
 
 # 🔗 Anchor Tag
 
-Anchor tags create hyperlinks.
+The Anchor Tag is used to create hyperlinks.
+
+### Syntax
 
 ```html
-<a href="https://google.com">Google</a>
+<a href="https://www.google.com">
+Google
+</a>
 ```
 
 ---
 
-# 🖼 Images
+## Open in New Tab
 
 ```html
-<img src="image.jpg" alt="Sample Image">
+<a href="https://www.google.com"
+target="_blank">
+Google
+</a>
 ```
 
 ---
 
-# 📂 Absolute Path
+# 🖼 Image Tag
 
-Points to an external location.
-
-Example:
+Used to display images.
 
 ```html
-https://example.com/image.jpg
+<img
+src="images/logo.png"
+alt="AMTECH Logo">
 ```
 
 ---
 
-# 📁 Relative Path
+## Image Attributes
 
-Points to a file inside your project.
+### src
+
+Specifies image location.
+
+### alt
+
+Alternative text if image fails to load.
+
+### width
+
+Sets image width.
+
+### height
+
+Sets image height.
+
+Example
 
 ```html
-images/logo.png
+<img
+src="cat.jpg"
+width="300"
+height="250"
+alt="Cat">
 ```
 
 ---
 
-# 💬 Comments
+# 📁 Absolute Path
+
+Complete path from the Internet.
+
+Example
+
+```html
+<img src="https://example.com/logo.png">
+```
+
+---
+
+# 📂 Relative Path
+
+Points to files inside your project.
+
+Example
+
+```html
+<img src="./images/logo.png">
+```
+
+---
+
+# 💬 HTML Comments
+
+Comments are ignored by the browser.
+
+Syntax
 
 ```html
 <!-- This is a comment -->
 ```
 
+Used for:
+
+- Documentation
+- Notes
+- Debugging
+
 ---
 
 # ✨ Formatting Tags
 
+---
+
+## Bold
+
 ```html
-<b>Bold</b>
+<b>AMTECH</b>
+```
 
-<i>Italic</i>
+---
 
-<u>Underline</u>
+## Strong
+
+```html
+<strong>Important</strong>
+```
+
+---
+
+## Italic
+
+```html
+<i>Hello</i>
+```
+
+---
+
+## Emphasis
+
+```html
+<em>Hello</em>
+```
+
+---
+
+## Underline
+
+```html
+<u>Hello</u>
+```
+
+---
+
+## Mark
+
+```html
+<mark>Hello</mark>
+```
+
+---
+
+## Small
+
+```html
+<small>Hello</small>
+```
+
+---
+
+## Deleted Text
+
+```html
+<del>₹500</del>
+```
+
+---
+
+## Inserted Text
+
+```html
+<ins>₹400</ins>
 ```
 
 ---
 
 # 📦 Block Elements
 
-Take the full width.
+Block Elements occupy the full width available.
 
-Examples:
+Examples
 
-- div
-- h1
-- p
+```
+div
+
+p
+
+h1
+
+section
+```
 
 ---
 
 # 📄 Inline Elements
 
-Take only required width.
+Inline Elements occupy only the required width.
 
-Examples:
+Examples
 
-- span
-- a
-- img
+```
+span
+
+a
+
+img
+
+strong
+```
 
 ---
 
-# 📦 div
+# 📦 div Tag
 
 Generic Block Element.
 
 ```html
 <div>
-    Welcome to AMTECH
+
+<h1>Welcome</h1>
+
+<p>AMTECH</p>
+
 </div>
 ```
 
 ---
 
-# 🔹 span
+# 🔹 span Tag
 
 Generic Inline Element.
 
 ```html
-<span>Hello</span>
+<p>
+
+Hello
+
+<span>Students</span>
+
+</p>
 ```
 
 ---
 
-# ➖ hr
+# ➖ Horizontal Rule
 
-Horizontal Rule
+Creates a horizontal line.
 
 ```html
 <hr>
@@ -146,28 +332,66 @@ Horizontal Rule
 
 ---
 
-# 🔻 sub
+# 🔻 Subscript
 
 ```html
 H<sub>2</sub>O
 ```
 
+Output
+
+H₂O
+
 ---
 
-# 🔺 sup
+# 🔺 Superscript
 
 ```html
 x<sup>2</sup>
 ```
 
+Output
+
+x²
+
 ---
 
-# ✅ Summary
+# 💡 Best Practices
 
-You learned:
+✅ Always use alt attribute
+
+✅ Use Relative Paths whenever possible
+
+✅ Use div for grouping
+
+✅ Use span for styling small portions
+
+✅ Write meaningful comments
+
+✅ Keep proper indentation
+
+---
+
+# ⚠ Common Mistakes
+
+❌ Missing alt attribute
+
+❌ Wrong image path
+
+❌ Using Absolute Path unnecessarily
+
+❌ Forgetting closing tags
+
+❌ Confusing div and span
+
+---
+
+# 📝 Summary
+
+After completing this level you should know:
 
 - Lists
-- Links
+- Anchor Tag
 - Images
 - Paths
 - Formatting Tags
@@ -178,3 +402,29 @@ You learned:
 - hr
 - sub
 - sup
+
+---
+
+# 🚀 Next Level
+
+In Level 3 you will learn:
+
+- Semantic HTML
+
+- Tables
+
+- Forms
+
+- HTML Entities
+
+- Input Types
+
+- Labels
+
+- Textarea
+
+- Select
+
+- Button
+
+- Advanced HTML
